@@ -12,5 +12,5 @@ Scottish power rocks track react application.
  
 
 ## Implementation Screen Shots 
-![alt text](src/images/1.png)
-![alt text](src/images/2.png)
+![alt text](src/images/1.PNG)
+![alt text](src/images/2.PNG)
