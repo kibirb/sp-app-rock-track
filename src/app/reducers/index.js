@@ -1,11 +1,13 @@
+import { constants } from "../constants";
+
 const reducer = (state, action) => {
     switch (action.type) {
-        case 'FETCH_TRACKS_REQUEST':
+        case constants.FETCH_TRACKS_REQUEST:
             return {
                 ...state,
                 isLoading: true
             };
-        case 'FETCH_TRACKS_SUCCESS':
+        case constants.FETCH_TRACKS_SUCCESS:
             return {
                 ...state,
                 isLoading: false,
